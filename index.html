@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAZY.COM</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body onclick="active()">
+    <div class="popUp" id="body">
+        <h1> <b>ops!</b> <br> Sorry open this website on a Bigger screen
+        </h1>
+    </div>
+    <!---------Navaigation bar-->
+    <div class="pop">
+        <header class="banner">
+            <div class="logo_con"> <img src="images/logo.png" alt="logo" class="logo"></div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Hall</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <h1>EAZY SPACE</h1>
+            <P>Welcome to<a href="#" class="link1"> EAZY SPACE.COM</a> subscribe to our YouTube to know more, watch more video,press the <br>bell icon to get lastest updates</P>
+            <div class="buttonS">
+                <button type="button"><span></span> MORE</button>
+                <button type="button"><span></span>SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function active() {
+            document.querySelector("#body").style.cssText = " transform: scale(1000); text-shadow: 2px, 2px, 1px, red;";
+
+        }
+    </script>
+</body>
+
+</html>
